@@ -37,7 +37,7 @@ void	first_child(char **argv, char **envp, int *fd, int infile)
 	path = find_path(args[0], envp);
 	if (!path)
 	{
-		perror("command not found");
+		ft_printf("pipex: command not found: \"%s\"\n", argv[2]);
 		free_arr(args);
 		exit(127);
 	}
@@ -62,7 +62,7 @@ void	second_child(char **argv, char **envp, int *fd, int outfile)
 	path = find_path(args[0], envp);
 	if (!path)
 	{
-		perror("command not found");
+		ft_printf("pipex: command not found: \"%s\"\n", argv[3]);
 		free_arr(args);
 		exit(127);
 	}

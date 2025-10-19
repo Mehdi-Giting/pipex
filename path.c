@@ -56,6 +56,8 @@ char	*find_path(char *cmd, char **envp)
 	char	**all_path;
 
 	i = 0;
+	all_path = NULL;
+	candidate = NULL;
 	while (envp[i])
 	{
 		if (ft_strncmp(envp[i], "PATH=", 5) == 0)

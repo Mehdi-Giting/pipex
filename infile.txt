@@ -1,0 +1,28 @@
+total 72
+-rw-r--r-- 1 mehdi mehdi   685 Oct  1 17:47 Makefile
+drwxr-xr-x 3 mehdi mehdi  4096 Oct 18 05:06 ft_printf
+-rw-r--r-- 1 mehdi mehdi     0 Oct 18 05:11 infile.txt
+drwxrwxrwx 2 mehdi mehdi  4096 Oct 18 05:06 libft
+-rw-r--r-- 1 mehdi mehdi    24 Oct 18 05:07 outfile.txt
+-rw-r--r-- 1 mehdi mehdi  1780 Oct  1 15:26 path.c
+-rw-r--r-- 1 mehdi mehdi  2592 Oct 18 05:06 path.o
+-rwxr-xr-x 1 mehdi mehdi 22104 Oct 18 05:06 pipex
+-rw-r--r-- 1 mehdi mehdi  2683 Oct  1 19:01 pipex.c
+-rw-r--r-- 1 mehdi mehdi  1343 Oct  1 19:02 pipex.h
+-rw-r--r-- 1 mehdi mehdi  4680 Oct 18 05:06 pipex.o
+-rw-r--r-- 1 mehdi mehdi  1356 Oct  1 19:04 utils.c
+-rw-r--r-- 1 mehdi mehdi  2208 Oct 18 05:06 utils.o
+total 76
+-rw-r--r-- 1 mehdi mehdi   685 Oct  1 17:47 Makefile
+drwxr-xr-x 3 mehdi mehdi  4096 Oct 18 05:06 ft_printf
+-rw-r--r-- 1 mehdi mehdi   689 Oct 18 05:11 infile.txt
+drwxrwxrwx 2 mehdi mehdi  4096 Oct 18 05:06 libft
+-rw-r--r-- 1 mehdi mehdi    24 Oct 18 05:07 outfile.txt
+-rw-r--r-- 1 mehdi mehdi  1780 Oct  1 15:26 path.c
+-rw-r--r-- 1 mehdi mehdi  2592 Oct 18 05:06 path.o
+-rwxr-xr-x 1 mehdi mehdi 22104 Oct 18 05:06 pipex
+-rw-r--r-- 1 mehdi mehdi  2683 Oct  1 19:01 pipex.c
+-rw-r--r-- 1 mehdi mehdi  1343 Oct  1 19:02 pipex.h
+-rw-r--r-- 1 mehdi mehdi  4680 Oct 18 05:06 pipex.o
+-rw-r--r-- 1 mehdi mehdi  1356 Oct  1 19:04 utils.c
+-rw-r--r-- 1 mehdi mehdi  2208 Oct 18 05:06 utils.o
