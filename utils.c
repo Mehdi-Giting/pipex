@@ -26,7 +26,7 @@ void	check_args(int argc, char **argv)
 {
 	if (!argv[2] || !argv[3] || argv[2][0] == '\0' || argv[3][0] == '\0')
 	{
-		ft_printf(": comman not found\n");
+		ft_printf(": command not found\n");
 		exit(1);
 	}
 	if (argc != 5)

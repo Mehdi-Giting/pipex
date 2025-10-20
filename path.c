@@ -25,6 +25,22 @@ void	free_arr(char **all_path)
 	free(all_path);
 }
 
+int	check_cmd_inside_folder(char *cmd)
+{
+	if (access(cmd, F_OK) == 0)
+	{
+		if (access(cmd, X_OK) == 0)
+			return (1);
+		else
+		{
+			ft_printf("permission denied: %s\n", cmd);
+			exit(126);
+		}
+	}
+	ft_printf("file does not exist: %s\n", cmd);
+	exit(127);
+}
+
 char	*final_path(char **all_path, char *cmd)
 {
 	int		i;
@@ -58,6 +74,13 @@ char	*find_path(char *cmd, char **envp)
 	i = 0;
 	all_path = NULL;
 	candidate = NULL;
+	if (ft_strrchr(cmd, '/'))
+	{
+		if (check_cmd_inside_folder(cmd) == 1)
+			return (ft_strdup(cmd));
+		else
+			return (NULL);
+	}
 	while (envp[i])
 	{
 		if (ft_strncmp(envp[i], "PATH=", 5) == 0)
